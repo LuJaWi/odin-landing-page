@@ -10,6 +10,18 @@ body {
   justify-content: space-between;
 }
 
+.header {
+  padding: 0px 96px 0px 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  margin: auto 0px;
+  display: flex;
+  gap: 24px;
+}
+
 button {
   background-color: rgb(78, 128, 238);
   color: white;
@@ -17,9 +29,16 @@ button {
   height: 32px;
   border-radius: 8px;
   border: 0px;
+  font-weight: bolder;
+  font-size: 14px;
 }
 
 h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
   padding: 0px;
   margin: 0px;
 }
@@ -54,5 +73,4 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: px;
 }
