@@ -57,6 +57,7 @@ a {
 .hero-text {
   padding: 96px;
   display: flex;
+  justify-content: space-between;
 }
 
 .img-placeholder {
@@ -73,4 +74,24 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-cards {
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  height: 96px;
+  width: 96px;
+  margin: 32px;
+  border-style: solid;
+  border-color: rgb(78, 128, 238);
 }
